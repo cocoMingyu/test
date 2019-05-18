@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="calculate-size-1.1.1 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/calculate-size-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/lib/calculate-size-1.1.1.jar!/" recursive="false" />
+  </library>
+</component>

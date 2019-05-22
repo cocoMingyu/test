@@ -18,4 +18,14 @@ public class CreateFactory {
         }
         return szb;
     }
+
+    public SZB sellSZB(String name){
+        SZB szb = getSZB(name);
+        if (szb != null) {
+            szb.propare();
+            szb.start();
+            szb.end();
+        }
+        return szb;
+    }
 }

@@ -83,11 +83,11 @@ public class ReadFile {
             buffer.clear();
             read=inchannel.read(buffer);
         }
-
         inchannel.close();
         outchannel.close();
         inputStream.close();
         outputStream.close();
-
     }
+
+
 }

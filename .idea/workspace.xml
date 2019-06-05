@@ -194,14 +194,11 @@
       <change afterPath="$PROJECT_DIR$/../restlet/.idea/restlet.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../restlet/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../restlet/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/io/FileInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/nio/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/nio/FileChannelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/nio/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/nio/Scatter_Gather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/nio/SelectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/nio/ServerConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/nio/MappedByteBufferDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/nio/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/nio/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/nio/SelectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/nio/SelectorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/nio/ServerConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/nio/ServerConnect.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -324,26 +321,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
-          <entry key="java" value="25" />
+          <entry key="class" value="6" />
+          <entry key="java" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="25" />
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="3087" />
+          <entry key="java" value="3568" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3087" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="3568" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -362,15 +360,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/nio/SelectorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+            <state relative-caret-position="550">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -391,8 +387,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/nio/ServerConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="71" selection-start-line="71" selection-end-line="72" selection-end-column="37" />
+            <state relative-caret-position="1386">
+              <caret line="72" column="42" lean-forward="true" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/nio/ReadFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-326">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/nio/MappedByteBufferDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -439,7 +459,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_pattern/adapter/V5Power.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/adapter/V220Power.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/adapter/mobile.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/adapter/AdapterVPower.java" />
@@ -485,11 +504,12 @@
         <option value="$PROJECT_DIR$/src/design_pattern/factory/abstract_factory/Test.java" />
         <option value="$PROJECT_DIR$/src/io/io/FileInputStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/io/nio/Client.java" />
-        <option value="$PROJECT_DIR$/src/io/nio/ServerConnect.java" />
-        <option value="$PROJECT_DIR$/src/io/nio/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/io/nio/Scatter_Gather.java" />
         <option value="$PROJECT_DIR$/src/io/nio/FileChannelDemo.java" />
         <option value="$PROJECT_DIR$/src/io/nio/SelectorDemo.java" />
+        <option value="$PROJECT_DIR$/src/io/nio/ServerConnect.java" />
+        <option value="$PROJECT_DIR$/src/io/nio/ReadFile.java" />
+        <option value="$PROJECT_DIR$/src/io/nio/MappedByteBufferDemo.java" />
       </list>
     </option>
   </component>
@@ -574,9 +594,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559699176856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559713439312" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fumeng/FumaCRMX" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -607,7 +628,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectorDemo">
+  <component name="RunManager" selected="Application.MappedByteBufferDemo">
     <configuration name="FileChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.nio.FileChannelDemo" />
       <module name="kenna" />
@@ -627,6 +648,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MappedByteBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.nio.MappedByteBufferDemo" />
+      <module name="kenna" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -660,38 +694,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.factory.abstract_factory.Test" />
-      <module name="kenna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design_pattern.factory.abstract_factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="calculate-size-1.1.1.jar" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/lib/calculate-size-1.1.1.jar" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JAR Application.calculate-size-1.1.1.jar" />
-      <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.FileInputStreamDemo" />
       <item itemvalue="Application.ReadFile" />
       <item itemvalue="Application.FileChannelDemo" />
       <item itemvalue="Application.SelectorDemo" />
+      <item itemvalue="Application.MappedByteBufferDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MappedByteBufferDemo" />
         <item itemvalue="Application.SelectorDemo" />
         <item itemvalue="Application.FileChannelDemo" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.FileInputStreamDemo" />
-        <item itemvalue="Application.Test (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -832,7 +853,7 @@
       <workItem from="1559556437585" duration="3510000" />
       <workItem from="1559610130930" duration="14421000" />
       <workItem from="1559635355695" duration="371000" />
-      <workItem from="1559696863044" duration="2895000" />
+      <workItem from="1559696863044" duration="8521000" />
     </task>
     <task id="LOCAL-00001" summary="删除out">
       <created>1558172975104</created>
@@ -848,11 +869,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558493684145</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="io">
+      <created>1559701837105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559701837105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481659000" />
+    <option name="totallyTimeSpent" value="487285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
@@ -869,7 +897,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38626608" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33798283" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33798283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -903,7 +931,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除out" />
     <MESSAGE value="命令，适配器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="命令，适配器模式" />
+    <MESSAGE value="io" />
+    <option name="LAST_COMMIT_MESSAGE" value="io" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1055,9 +1084,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/command/service/LightOn.java" />
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/command/service/NoCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/command/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/design_pattern/command/service/QuickCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/design_pattern/command/ControlPanel.java" />
     <entry file="file://$PROJECT_DIR$/src/design_pattern/single/Singleton2.java" />
@@ -1148,16 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/nio/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/nio/Scatter_Gather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1169,43 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="202" column="50" selection-start-line="202" selection-start-column="46" selection-end-line="202" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="685" column="25" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/nio/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/nio/ServerConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="71" selection-start-line="71" selection-end-line="72" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/nio/FileChannelDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,14 +1222,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/nio/SelectorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/io/nio/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        <state relative-caret-position="286">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/nio/ServerConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="72" column="42" lean-forward="true" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/nio/SelectorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/nio/FileChannelDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/nio/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1937">
+          <caret line="900" column="58" lean-forward="true" selection-start-line="900" selection-start-column="58" selection-end-line="900" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jre/lib/ext/zipfs.jar!/com/sun/nio/zipfs/ZipFileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#90859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/src.zip!/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="914" column="37" selection-start-line="914" selection-start-column="37" selection-end-line="914" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/nio/MappedByteBufferDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -23,14 +23,11 @@ public class test1 {
 
 
     public static void main(String[] args) {
-
-        String a="aa";
-        Integer b=null;
-        int s = Optional.ofNullable(b).orElse(b);
-
-        if (a.equals(b)){
-            System.out.println("yes");
+        String abc = System.getProperty("abc");
+        if (abc==null){
+            System.out.println("is null");
+        }else {
+            System.out.println(abc);
         }
-        System.out.println("no");
     }
 }
